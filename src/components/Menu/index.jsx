@@ -16,6 +16,21 @@ function index() {
           <NavLink to="/useCallback" activeClassName="selected">
             UseCallback
           </NavLink>
+          <NavLink to="/useMemo" activeClassName="selected">
+            UseMemo
+          </NavLink>
+          <NavLink to="/useRef" activeClassName="selected">
+            UseRef
+          </NavLink>
+          <NavLink to="/useContext" activeClassName="selected">
+            UseContext
+          </NavLink>
+          <NavLink to="/useContext2" activeClassName="selected">
+            UseContext2
+          </NavLink>
+          <NavLink to="/useReducer" activeClassName="selected">
+            UseReducer
+          </NavLink>
         </header>
       </div>
     </React.Fragment>

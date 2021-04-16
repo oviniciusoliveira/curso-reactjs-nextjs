@@ -4,7 +4,11 @@ import './../../styles/globalStyles.css';
 
 const Button = React.memo(function Button({ incrementCounter }) {
   console.log('Filho renderizou');
-  return <button onClick={() => incrementCounter(10)}>+</button>;
+  return (
+    <button className="button-increment" onClick={() => incrementCounter(10)}>
+      <p>+</p>
+    </button>
+  );
 });
 
 Button.propTypes = {
