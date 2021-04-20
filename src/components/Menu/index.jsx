@@ -31,6 +31,9 @@ function index() {
           <NavLink to="/useReducer" activeClassName="selected">
             UseReducer
           </NavLink>
+          <NavLink to="/ContextReducer" activeClassName="selected">
+            ContextReducer
+          </NavLink>
         </header>
       </div>
     </React.Fragment>

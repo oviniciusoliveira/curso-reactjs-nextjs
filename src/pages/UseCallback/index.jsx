@@ -22,8 +22,9 @@ function UseCallback() {
 
   // useCallback(fn, [])
 
-  const incrementCounter = useCallback((num) => {
-    setCounter((c) => c + num);
+  const incrementCounter = useCallback((increment) => {
+    console.log('funcao renderizou');
+    setCounter((prevCounter) => prevCounter + increment);
   }, []);
 
   console.log('Pai Renderizou');
