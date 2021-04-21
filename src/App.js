@@ -9,6 +9,7 @@ import UseContext from './pages/UseContext';
 import UseContext2 from './pages/UseContext2';
 import UseReducer from './pages/UseReducer';
 import ContextReducer from './pages/ContextReducer';
+import useMyHook from './pages/useMyHook';
 import Menu from './components/Menu';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/useContext2" component={UseContext2} />
           <Route path="/useReducer" component={UseReducer} />
           <Route path="/contextReducer" component={ContextReducer} />
+          <Route path="/useMyHook" component={useMyHook} />
         </Switch>
       </BrowserRouter>
     </React.Fragment>
