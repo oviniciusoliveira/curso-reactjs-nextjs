@@ -43,6 +43,9 @@ function index() {
           <NavLink to="/useFetch" activeClassName="selected">
             useFetch
           </NavLink>
+          <NavLink to="/useAsync" activeClassName="selected">
+            useAsync
+          </NavLink>
         </header>
       </div>
     </React.Fragment>
