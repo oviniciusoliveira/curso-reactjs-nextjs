@@ -14,6 +14,7 @@ import useMyHook from '../../pages/useMyHook';
 import MultipleHooks from '../../pages/MultipleHooks';
 import useMyHook2 from '../../pages/useFetch';
 import useMyHook3 from '../../pages/useAsync';
+import useLayoutEffectExample from '../../pages/useLayoutEffectExample';
 import './styles.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/multipleHooks" component={MultipleHooks} />
           <Route path="/useFetch" component={useMyHook2} />
           <Route path="/useAsync" component={useMyHook3} />
+          <Route path="/UseLayoutEffect" component={useLayoutEffectExample} />
         </Switch>
       </BrowserRouter>
     </React.Fragment>

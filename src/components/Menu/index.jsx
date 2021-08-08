@@ -46,6 +46,9 @@ function index() {
           <NavLink to="/useAsync" activeClassName="selected">
             useAsync
           </NavLink>
+          <NavLink to="/UseLayoutEffect" activeClassName="selected">
+            UseLayoutEffect
+          </NavLink>
         </header>
       </div>
     </React.Fragment>
