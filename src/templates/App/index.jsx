@@ -12,6 +12,7 @@ import UseReducer from '../../pages/UseReducer';
 import ContextReducer from '../../pages/ContextReducer';
 import useMyHook from '../../pages/useMyHook';
 import MultipleHooks from '../../pages/MultipleHooks';
+import useMyHook2 from '../../pages/useMyHook2';
 import './styles.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contextReducer" component={ContextReducer} />
           <Route path="/useMyHook" component={useMyHook} />
           <Route path="/multipleHooks" component={MultipleHooks} />
+          <Route path="/useMyHook2" component={useMyHook2} />
         </Switch>
       </BrowserRouter>
     </React.Fragment>
