@@ -42,7 +42,7 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] useReducer
   - [x] useContext + useReducer
   - [x] Criação de hooks próprios
-  - [ ] Organização com useEffect, useReducer, useContext e useRef
+  - [x] Organização com useEffect, useReducer, useContext e useRef
   - [ ] useFetch
   - [ ] useAsync
   - [ ] useLayoutEffect
