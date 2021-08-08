@@ -1,23 +1,25 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const useFetch = (url, options) => {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
-  const controller = useRef(new AbortController());
-  const signal = useRef(controller.signal);
 
   useEffect(() => {
     console.log('EFFECT', new Date().toLocaleString());
+    const controller = new AbortController();
     const fetchData = async () => {
       setLoading(true);
       await new Promise((resolve) => setTimeout(resolve, 500));
       try {
-        const response = await fetch(url, { ...options, signal });
+        const response = await fetch(url, { ...options, signal: controller.signal });
         const jsonResult = await response.json();
         setResult(jsonResult);
       } catch (error) {
-        console.error(error);
+        if (error.name == 'AbortError') {
+          console.warn('fetch request was cancelled');
+        }
       }
+      setLoading(false);
     };
     fetchData();
 

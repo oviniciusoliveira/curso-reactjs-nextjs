@@ -40,8 +40,8 @@ function index() {
           <NavLink to="/multipleHooks" activeClassName="selected">
             MultipleHooks
           </NavLink>
-          <NavLink to="/useMyHook2" activeClassName="selected">
-            useMyHook2
+          <NavLink to="/useFetch" activeClassName="selected">
+            useFetch
           </NavLink>
         </header>
       </div>
