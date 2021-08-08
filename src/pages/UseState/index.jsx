@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from './../../logo.svg';
-import './../../App.css';
+import '../../templates/App/styles.css';
 
 function UseState() {
   const [reverse, setReverse] = useState(false);

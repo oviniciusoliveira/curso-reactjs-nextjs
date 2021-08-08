@@ -1,16 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import UseState from './pages/UseState';
-import UseEffect from './pages/UseEffect';
-import UseCallback from './pages/UseCallback';
-import UseMemo from './pages/UseMemo';
-import UseRef from './pages/UseRef';
-import UseContext from './pages/UseContext';
-import UseContext2 from './pages/UseContext2';
-import UseReducer from './pages/UseReducer';
-import ContextReducer from './pages/ContextReducer';
-import useMyHook from './pages/useMyHook';
-import Menu from './components/Menu';
+import Menu from '../../components/Menu';
+import UseState from '../../pages/UseState';
+import UseEffect from '../../pages/UseEffect';
+import UseCallback from '../../pages/UseCallback';
+import UseMemo from '../../pages/UseMemo';
+import UseRef from '../../pages/UseRef';
+import UseContext from '../../pages/UseContext';
+import UseContext2 from '../../pages/UseContext2';
+import UseReducer from '../../pages/UseReducer';
+import ContextReducer from '../../pages/ContextReducer';
+import useMyHook from '../../pages/useMyHook';
+import MultipleHooks from '../../pages/MultipleHooks';
+import './styles.css';
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
           <Route path="/useReducer" component={UseReducer} />
           <Route path="/contextReducer" component={ContextReducer} />
           <Route path="/useMyHook" component={useMyHook} />
+          <Route path="/multipleHooks" component={MultipleHooks} />
         </Switch>
       </BrowserRouter>
     </React.Fragment>

@@ -37,6 +37,9 @@ function index() {
           <NavLink to="/useMyHook" activeClassName="selected">
             useMyHook
           </NavLink>
+          <NavLink to="/multipleHooks" activeClassName="selected">
+            MultipleHooks
+          </NavLink>
         </header>
       </div>
     </React.Fragment>
