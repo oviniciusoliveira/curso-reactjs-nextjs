@@ -49,6 +49,9 @@ function index() {
           <NavLink to="/UseLayoutEffect" activeClassName="selected">
             UseLayoutEffect
           </NavLink>
+          <NavLink to="/UseImperativeHandle" activeClassName="selected">
+            UseImperativeHandle
+          </NavLink>
         </header>
       </div>
     </React.Fragment>

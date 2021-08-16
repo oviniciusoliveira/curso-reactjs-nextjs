@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 
 const useLayoutEffectExample = () => {
   const [counted, setCounted] = useState([0, 1, 2, 3, 4]);
