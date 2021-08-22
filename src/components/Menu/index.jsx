@@ -52,6 +52,9 @@ function index() {
           <NavLink to="/UseImperativeHandle" activeClassName="selected">
             UseImperativeHandle
           </NavLink>
+          <NavLink to="/UseDebugValue" activeClassName="selected">
+            UseDebugValue
+          </NavLink>
         </header>
       </div>
     </React.Fragment>

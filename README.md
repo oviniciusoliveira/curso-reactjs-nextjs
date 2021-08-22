@@ -47,7 +47,8 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] useAsync
   - [x] useLayoutEffect
   - [x] useImperativeHandle e React.forwardRef
-  - [ ] useDebugValue + useMediaQuery
+  - [x] Custom Hook: useMediaQuery
+  - [x] useDebugValue
   - [ ] Ordem de execução dos Hooks
   - [ ] Error Boundaries - Controlando erros
   - [ ] Padrão Compound Components e React.Children + React.cloneElement

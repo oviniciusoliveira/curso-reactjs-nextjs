@@ -15,6 +15,7 @@ import useMyHook2 from './../pages/useFetch';
 import useMyHook3 from './../pages/useAsync';
 import useLayoutEffectExample from './../pages/useLayoutEffectExample';
 import UseImperativeHandle from './../pages/useImperativeHandle';
+import UseDebugValue from './../pages/UseDebugValue';
 
 export function AppRoutes() {
   return (
@@ -34,6 +35,7 @@ export function AppRoutes() {
       <Route path="/useAsync" component={useMyHook3} />
       <Route path="/UseLayoutEffect" component={useLayoutEffectExample} />
       <Route path="/UseImperativeHandle" component={UseImperativeHandle} />
+      <Route path="/UseDebugValue" component={UseDebugValue} />
     </Switch>
   );
 }
