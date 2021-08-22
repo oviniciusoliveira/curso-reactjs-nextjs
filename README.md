@@ -12,7 +12,7 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
 
 - [x] React:
   - [x] Introdução;
-  - [x] Componentes funcionaos e componentes de classe
+  - [x] Componentes funcionais e componentes de classe
   - [x] Componentes de classe com estado (stateful)
   - [x] State com arrays e objetos
   - [x] Lifecycle methods
@@ -49,7 +49,7 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] useImperativeHandle e React.forwardRef
   - [x] Custom Hook: useMediaQuery
   - [x] useDebugValue
-  - [ ] Ordem de execução dos Hooks
+  - [x] Ordem de execução dos Hooks
   - [ ] Error Boundaries - Controlando erros
   - [ ] Padrão Compound Components e React.Children + React.cloneElement
   - [ ] React.lazy
@@ -60,4 +60,3 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [ ] useHistory e useLocation
   - [ ] Rota 404
   - [ ] Link vs a
-- [ ]
