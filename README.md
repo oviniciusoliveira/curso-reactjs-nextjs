@@ -51,7 +51,7 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] useDebugValue
   - [x] Ordem de execução dos Hooks
   - [x] Error Boundaries - Controlando erros
-  - [ ] Padrão Compound Components e React.Children + React.cloneElement
+  - [x] Padrão Compound Components e React.Children + React.cloneElement
   - [ ] React.lazy
   - [ ] Context API + Hooks
 - [ ] Roteamento com React e Router Dom

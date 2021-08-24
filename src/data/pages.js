@@ -15,6 +15,7 @@ import useLayoutEffectExample from './../pages/useLayoutEffectExample';
 import UseImperativeHandle from './../pages/useImperativeHandle';
 import UseDebugValue from './../pages/UseDebugValue';
 import ErrorBoundaryExample from './../pages/ErrorBoundaryExample';
+import CompoundComponents from './../pages/CompoundComponents';
 
 export const pages = [
   { path: '/useState', component: UseState },
@@ -34,4 +35,5 @@ export const pages = [
   { path: '/UseImperativeHandle', component: UseImperativeHandle },
   { path: '/UseDebugValue', component: UseDebugValue },
   { path: '/ErrorBoundaryExample', component: ErrorBoundaryExample },
+  { path: '/CompoundComponents', component: CompoundComponents },
 ];
