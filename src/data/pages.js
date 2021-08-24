@@ -14,7 +14,7 @@ import useMyHook3 from './../pages/useAsync';
 import useLayoutEffectExample from './../pages/useLayoutEffectExample';
 import UseImperativeHandle from './../pages/useImperativeHandle';
 import UseDebugValue from './../pages/UseDebugValue';
-import MyErrorBoundary from './../pages/MyErrorBoundary';
+import ErrorBoundaryExample from './../pages/ErrorBoundaryExample';
 
 export const pages = [
   { path: '/useState', component: UseState },
@@ -33,5 +33,5 @@ export const pages = [
   { path: '/UseLayoutEffect', component: useLayoutEffectExample },
   { path: '/UseImperativeHandle', component: UseImperativeHandle },
   { path: '/UseDebugValue', component: UseDebugValue },
-  { path: '/MyErrorBoundary', component: MyErrorBoundary },
+  { path: '/ErrorBoundaryExample', component: ErrorBoundaryExample },
 ];

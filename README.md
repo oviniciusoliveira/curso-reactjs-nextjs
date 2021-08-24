@@ -50,7 +50,7 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] Custom Hook: useMediaQuery
   - [x] useDebugValue
   - [x] Ordem de execução dos Hooks
-  - [ ] Error Boundaries - Controlando erros
+  - [x] Error Boundaries - Controlando erros
   - [ ] Padrão Compound Components e React.Children + React.cloneElement
   - [ ] React.lazy
   - [ ] Context API + Hooks
