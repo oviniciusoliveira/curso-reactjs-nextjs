@@ -1,4 +1,4 @@
-import { Children, cloneElement, useState } from 'react';
+import { Children, cloneElement, createContext, useContext, useState } from 'react';
 import P from 'prop-types';
 
 const style = {
@@ -8,6 +8,8 @@ const style = {
   },
 };
 
+const TurnOnOffContext = createContext();
+
 const TurnOnOff = ({ children }) => {
   const [isOn, setIsOn] = useState(false);
 
@@ -15,33 +17,49 @@ const TurnOnOff = ({ children }) => {
     setIsOn((prevOn) => !prevOn);
   };
 
-  return Children.map(children, (child) => {
-    const newChild = cloneElement(child, {
-      isOn,
-      onTurn,
-    });
-    return newChild;
-  });
+  return <TurnOnOffContext.Provider value={{ isOn, onTurn }}>{children}</TurnOnOffContext.Provider>;
 };
 
-const TurnedOn = ({ isOn, children }) => (isOn ? children : null);
+TurnOnOff.propTypes = {
+  children: P.node,
+};
 
-const TurnedOff = ({ isOn, children }) => (isOn ? null : children);
+const TurnedOn = ({ children }) => {
+  const { isOn } = useContext(TurnOnOffContext);
+  return isOn ? children : null;
+};
 
-const TurnButton = ({ isOn, onTurn }) => {
+const TurnedOff = ({ children }) => {
+  const { isOn } = useContext(TurnOnOffContext);
+  return isOn ? null : children;
+};
+
+const TurnButton = () => {
+  const { isOn, onTurn } = useContext(TurnOnOffContext);
   return <button onClick={() => onTurn()}>Turn {isOn ? 'OFF' : 'ON'}</button>;
 };
 
-TurnButton.propTypes = {
-  isOn: P.bool,
-  onTurn: P.func,
+const Paragraph = ({ children }) => <p {...style}>{children}</p>;
+
+Paragraph.propTypes = {
+  children: P.node,
 };
 
 const CompoundComponents = () => {
   return (
     <TurnOnOff>
-      <TurnedOn>Aqui as coisas que vão acontecer quando estiver ON.</TurnedOn>
-      <TurnedOff>Aqui vem as coisas do OFF.</TurnedOff>
+      <div>
+        <header>
+          <TurnedOff>
+            <Paragraph>Aqui vem as coisas do OFF.</Paragraph>
+          </TurnedOff>
+        </header>
+        <section>
+          <TurnedOn>
+            <Paragraph>Aqui as coisas que vão acontecer quando estiver ON.</Paragraph>
+          </TurnedOn>
+        </section>
+      </div>
       <TurnButton />
     </TurnOnOff>
   );
