@@ -16,6 +16,7 @@ import UseImperativeHandle from './../pages/useImperativeHandle';
 import UseDebugValue from './../pages/UseDebugValue';
 import ErrorBoundaryExample from './../pages/ErrorBoundaryExample';
 import CompoundComponents from './../pages/CompoundComponents';
+import ReactLazy from './../pages/ReactLazy';
 
 export const pages = [
   { path: '/useState', component: UseState },
@@ -36,4 +37,5 @@ export const pages = [
   { path: '/UseDebugValue', component: UseDebugValue },
   { path: '/ErrorBoundaryExample', component: ErrorBoundaryExample },
   { path: '/CompoundComponents', component: CompoundComponents },
+  { path: '/ReactLazy', component: ReactLazy },
 ];
