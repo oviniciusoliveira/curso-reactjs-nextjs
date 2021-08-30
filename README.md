@@ -52,8 +52,8 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] Ordem de execução dos Hooks
   - [x] Error Boundaries - Controlando erros
   - [x] Padrão Compound Components e React.Children + React.cloneElement
-  - [x] React.lazy
-  - [ ] Context API + Hooks
+  - [x] Code Splitting, React.lazy e Suspense
+  - [x] Context API + Hooks
 - [ ] Roteamento com React e Router Dom
   - [ ] Criação de rotas com componentes
   - [ ] Parâmetros de rota e hook useParam
