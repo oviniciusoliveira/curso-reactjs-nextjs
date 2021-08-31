@@ -8,6 +8,12 @@ Ministrado pelo Professor Luiz Otávio Miranda através da plataforma Udemy. O c
 
 Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Typescript, Javascript, Strapi, Storybook.
 
+<a  href="https://www.udemy.com/course/docker-kubernetes-the-practical-guide/" title="Curso de React.Js + Next.Js completo do básico ao avançado">
+<img alt="Udemy" src="https://img.shields.io/badge/Udemy-%23EA5252.svg?&style=flat-square&logo=Udemy&logoColor=white"/>
+</a>
+
+---
+
 ## 📖 Trilha percorrida no curso
 
 - [x] React:
