@@ -54,9 +54,9 @@ Principais conteúdos: ReactJS, NextJS, Styled-Components, Testes com Jest, Type
   - [x] Padrão Compound Components e React.Children + React.cloneElement
   - [x] Code Splitting, React.lazy e Suspense
   - [x] Context API + Hooks
-- [ ] Roteamento com React e Router Dom
-  - [ ] Criação de rotas com componentes
-  - [ ] Parâmetros de rota e hook useParam
-  - [ ] useHistory e useLocation
-  - [ ] Rota 404
-  - [ ] Link vs a
+- [x] Roteamento com React e Router Dom
+  - [x] Criação de rotas com componentes
+  - [x] Parâmetros de rota e hook useParam
+  - [x] useHistory e useLocation
+  - [x] Rota 404
+  - [x] Link vs a
