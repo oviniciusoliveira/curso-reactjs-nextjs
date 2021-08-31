@@ -1,3 +1,6 @@
 [submodule "react-hooks-theory"]
 	path = react-hooks-theory
 	url = https://github.com/oviniciusoliveira/react-hooks-theory
+[submodule "fetch-posts"]
+	path = fetch-posts
+	url = https://github.com/oviniciusoliveira/fetch-posts
