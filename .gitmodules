@@ -4,3 +4,6 @@
 [submodule "fetch-posts"]
 	path = fetch-posts
 	url = https://github.com/oviniciusoliveira/fetch-posts
+[submodule "context-api"]
+	path = context-api
+	url = https://github.com/oviniciusoliveira/context-api
