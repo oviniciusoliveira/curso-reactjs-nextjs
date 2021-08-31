@@ -1,0 +1,3 @@
+[submodule "react-hooks-theory"]
+	path = react-hooks-theory
+	url = https://github.com/oviniciusoliveira/react-hooks-theory
